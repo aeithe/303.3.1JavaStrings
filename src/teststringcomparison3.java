@@ -1,11 +1,12 @@
-public class CompareToExample {
+public class teststringcomparison3 {
     public static void main(String[] args) {
-        String s1 = "hello";
-        String s2 = "hello";
-        String s3 = "hemlo";
-        String s4 = "flag";
+        String s1="Perscholas";
+        String s2="Perscholas";
+        String s3="Perschola";
+        String s4="PerscholasX";
         System.out.println(s1.compareTo(s2));
         System.out.println(s1.compareTo(s3));
         System.out.println(s1.compareTo(s4));
+
     }
 }
